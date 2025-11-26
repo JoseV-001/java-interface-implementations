@@ -1,11 +1,9 @@
 package application;
 
 import model.entities.Product;
-import util.ProductPredicate;
+
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -18,7 +16,7 @@ public class Main {
         list.add(new Product("Tablet", 350.00));
         list.add(new Product("HD Case", 80.90));
 
-        list.removeIf(new ProductPredicate());
+        list.removeIf(Product::staticProductPredicate);
 
         for (Product p : list){
             System.out.println(p);
