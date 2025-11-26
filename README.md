@@ -1,7 +1,7 @@
-# java-interface-implementations
-# Exemplos de Implementação de Interface em Java
+# java-predicate-implementations
+# Exemplos de Implementação de Predicate em Java
 
-Este projeto contém diferentes formas de implementar a mesma interface funcional.
+Este projeto contém diferentes formas de implementar a interface funcional `Predicate<T>`.
 
 ## Versões incluídas:
 
@@ -10,4 +10,3 @@ Este projeto contém diferentes formas de implementar a mesma interface funciona
 3. **Method Reference com método não-estático**
 4. **Expressão lambda declarada**
 5. **Expressão lambda inline**
-
